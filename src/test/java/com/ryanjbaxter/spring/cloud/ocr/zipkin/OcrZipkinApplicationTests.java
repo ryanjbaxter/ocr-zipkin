@@ -1,4 +1,4 @@
-package com.example;
+package com.ryanjbaxter.spring.cloud.ocr.zipkin;
 
 import com.ryanjbaxter.spring.cloud.ocr.zipkin.OcrZipkinApplication;
 import org.junit.Test;
@@ -8,7 +8,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = OcrZipkinApplication.class)
-public class ZipkinDemoApplicationTests {
+public class OcrZipkinApplicationTests {
 
 	@Test
 	public void contextLoads() {
