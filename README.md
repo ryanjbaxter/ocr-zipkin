@@ -18,4 +18,7 @@ $ docker run -i -p 8282:8282 ryanjbaxter/ocr-zipkin
 ```
 
 ## Using
-Once the application is running you can go to http://localhost:9411 to see the Zipkin UI.
+Once the application is running you can go to http://localhost:9411 to see the Zipkin UI.  Tracing from the other applications
+in the demo will be aggregated to this server.  For example, if you have the [OCR Races]() application running and you hit
+http://localhost:8383/participants this will generate log information that will be sent to Zipkin.  You can then use
+the Zipkin UI to query the information.
